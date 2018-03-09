@@ -85,13 +85,13 @@
 
     <!-- banner开始 -->
     <div id="banner">
-    	<div class="banner_img">
-    		<img src="img/banner.jpg" alt="">
-    		<img src="img/banner2.jpg" alt="">
-    		<img src="img/banner3.jpg" alt="">
-    		<img src="img/banner4.jpg" alt="">
-    		<img src="img/banner5.jpg" alt="">
-    	</div>
+    	<ul class="imgbox">
+			<li class="active"><img src="img/banner.jpg" alt=""></li>
+			<li><img src="img/banner2.jpg" alt=""></li>
+			<li><img src="img/banner3.jpg" alt=""></li>
+			<li><img src="img/banner4.jpg" alt=""></li>
+			<li><img src="img/banner5.jpg" alt=""></li>
+		</ul>
     	<ul class="banner_nav">
     		<li>
     		<span class="banner_title">手机 电话卡</span>
@@ -143,13 +143,15 @@
     		<span class="banner_jiantou">&gt;</span>
     		</li>
     	</ul>
-    	<div class="banner_btn banner_1btn">&lt;</div>
-    	<div class="banner_btn banner_2btn">&gt;</div>
-    	<div class="banner_dian"></div>
-    	<div class="banner_dian banner_dian1"></div>
-    	<div class="banner_dian banner_dian2"></div>
-    	<div class="banner_dian banner_dian3"></div>
-    	<div class="banner_dian banner_dian4"></div>
+    	<ul class="pagerbox">
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<div class="prev"></div>
+		<div class="next"></div>
     </div>
     <!-- banner结束 -->
 
@@ -207,45 +209,145 @@
     	<div class="star_top">
     		<h1 class="star_title">小米明星单品</h1>
     		<div class="star_btn">
-    			<div class="star_btn1">&lt;</div>
+    			<div class="star_btn1 disable">&lt;</div>
     			<div class="star_btn2">&gt;</div>
     		</div>
 		</div>
 		<div class="star_bottom">
-			<div class="star_item">
-				<img src="img/1.png" alt="">
-				<h1>小米MIX 2</h1>
-				<h2>全面屏2.0，5.99"大屏</h2>
-				<h3>3299元起</h3>
-			</div>
+			<div class="buy_inner">
+				<div class="star_item">
+					<img src="img/1.png" alt="">
+					<h1>小米MIX 2</h1>
+					<h2>全面屏2.0，5.99"大屏</h2>
+					<h3>3299元起</h3>
+				</div>
 
-			<div class="star_item star_item2">
-				<img src="img/2.png" alt="">
-				<h1>红米5A</h1>
-				<h2>8天超长待机，137g轻巧机身</h2>
-				<h3>599元</h3>
-			</div>
+				<div class="star_item star_item2">
+					<img src="img/2.png" alt="">
+					<h1>红米5A</h1>
+					<h2>8天超长待机，137g轻巧机身</h2>
+					<h3>599元</h3>
+				</div>
 
-			<div class="star_item star_item3">
-				<img src="img/3.png" alt="">
-				<h1>小米6</h1>
-				<h2>变焦双摄，4轴防抖</h2>
-				<h3>2299元起</h3>
-			</div>
+				<div class="star_item star_item3">
+					<img src="img/3.png" alt="">
+					<h1>小米6</h1>
+					<h2>变焦双摄，4轴防抖</h2>
+					<h3>2299元起</h3>
+				</div>
 
-			<div class="star_item star_item4">
-				<img src="img/4.png" alt="">
-				<h1>小米电视4A  43寸标准版</h1>
-				<h2>全高清HDR 四核高性能处理器</h2>
-				<h3>1999元</h3>
-			</div>
+				<div class="star_item star_item4">
+					<img src="img/4.png" alt="">
+					<h1>小米电视4A  43寸标准版</h1>
+					<h2>全高清HDR 四核高性能处理器</h2>
+					<h3>1999元</h3>
+				</div>
 
-			<div class="star_item star_item1">
-				<img src="img/5.png" alt="">
-				<h1>小米笔记本</h1>
-				<h2>更薄更轻，想杂志一样随身携带</h2>
-				<h3>3599元起</h3>
+				<div class="star_item star_item1">
+					<img src="img/5.png" alt="">
+					<h1>小米笔记本</h1>
+					<h2>更薄更轻，想杂志一样随身携带</h2>
+					<h3>3599元起</h3>
+				</div>
+
+				<div class="star_item star_item1">
+					<img src="img/5.png" alt="">
+					<h1>小米笔记本</h1>
+					<h2>更薄更轻，想杂志一样随身携带</h2>
+					<h3>3599元起</h3>
+				</div>
+				<div class="star_item star_item4">
+					<img src="img/4.png" alt="">
+					<h1>小米电视4A  43寸标准版</h1>
+					<h2>全高清HDR 四核高性能处理器</h2>
+					<h3>1999元</h3>
+				</div>
+				<div class="star_item star_item3">
+					<img src="img/3.png" alt="">
+					<h1>小米6</h1>
+					<h2>变焦双摄，4轴防抖</h2>
+					<h3>2299元起</h3>
+				</div>
+				<div class="star_item star_item2">
+					<img src="img/2.png" alt="">
+					<h1>红米5A</h1>
+					<h2>8天超长待机，137g轻巧机身</h2>
+					<h3>599元</h3>
+				</div>
+				<div class="star_item">
+					<img src="img/1.png" alt="">
+					<h1>小米MIX 2</h1>
+					<h2>全面屏2.0，5.99"大屏</h2>
+					<h3>3299元起</h3>
+				</div>
+
+				<div class="star_item">
+					<img src="img/1.png" alt="">
+					<h1>小米MIX 2</h1>
+					<h2>全面屏2.0，5.99"大屏</h2>
+					<h3>3299元起</h3>
+				</div>
+
+				<div class="star_item star_item2">
+					<img src="img/2.png" alt="">
+					<h1>红米5A</h1>
+					<h2>8天超长待机，137g轻巧机身</h2>
+					<h3>599元</h3>
+				</div>
+
+				<div class="star_item star_item3">
+					<img src="img/3.png" alt="">
+					<h1>小米6</h1>
+					<h2>变焦双摄，4轴防抖</h2>
+					<h3>2299元起</h3>
+				</div>
+
+				<div class="star_item star_item4">
+					<img src="img/4.png" alt="">
+					<h1>小米电视4A  43寸标准版</h1>
+					<h2>全高清HDR 四核高性能处理器</h2>
+					<h3>1999元</h3>
+				</div>
+
+				<div class="star_item star_item1">
+					<img src="img/5.png" alt="">
+					<h1>小米笔记本</h1>
+					<h2>更薄更轻，想杂志一样随身携带</h2>
+					<h3>3599元起</h3>
+				</div>
+
+				<div class="star_item star_item1">
+					<img src="img/5.png" alt="">
+					<h1>小米笔记本</h1>
+					<h2>更薄更轻，想杂志一样随身携带</h2>
+					<h3>3599元起</h3>
+				</div>
+				<div class="star_item star_item4">
+					<img src="img/4.png" alt="">
+					<h1>小米电视4A  43寸标准版</h1>
+					<h2>全高清HDR 四核高性能处理器</h2>
+					<h3>1999元</h3>
+				</div>
+				<div class="star_item star_item3">
+					<img src="img/3.png" alt="">
+					<h1>小米6</h1>
+					<h2>变焦双摄，4轴防抖</h2>
+					<h3>2299元起</h3>
+				</div>
+				<div class="star_item star_item2">
+					<img src="img/2.png" alt="">
+					<h1>红米5A</h1>
+					<h2>8天超长待机，137g轻巧机身</h2>
+					<h3>599元</h3>
+				</div>
+				<div class="star_item">
+					<img src="img/1.png" alt="">
+					<h1>小米MIX 2</h1>
+					<h2>全面屏2.0，5.99"大屏</h2>
+					<h3>3299元起</h3>
+				</div>
 			</div>
+			
 		</div>
     </section>
     <!-- 小米单品结束 -->
@@ -341,89 +443,321 @@
 			<div class="star_top">
     			<h1 class="star_title">搭配</h1>
     			<div class="dapei_right">
-    				<span class="dapei_nav_active">热门</span>
-    				<span>耳机音箱</span>
-    				<span>电源</span>
-    				<span>电池存储卡</span>
-
+    				<span class="type active">热门</span>
+    				<span class="type">耳机音箱</span>
+    				<span class="type">电源</span>
+    				<span class="type">电池存储卡</span>
     			</div>
 			</div>
 			<div class="zhineng_bottom">
-				<div class="zhineng_item dapei_item">
-					<img src="img/25.jpg" alt="">
-				</div>
-
-				<div class="zhineng_item dapei_item2">
-					<img src="img/26.jpg" alt="">
-					<a href="">新小米移动电源2(10000mAh)</a>
-					<h1>79元</h1>
-					<p>2810人评论</p>
-					<div class="zhineng_tan">
-						<p>小米移动电源</p>
+				<div class="goodlist active">
+					<div class="zhineng_item dapei_item">
+						<img src="img/25.jpg" alt="">
 					</div>
-				</div>
 
-				<div class="zhineng_item dapei_item2">
-					<img src="img/27.jpg" alt="">
-					<a href="">小米移动电源2C 20000mAh</a>
-					<h1>129元</h1>
-					<p>1.4万人评论</p>
-					<div class="dapei_biaoqian">
-						<p>新品</p>
+					<div class="zhineng_item dapei_item2">
+						<img src="img/26.jpg" alt="">
+						<a href="">新小米移动电源2(10000mAh)</a>
+						<h1>79元</h1>
+						<p>2810人评论</p>
+						<div class="zhineng_tan">
+							<p>小米移动电源</p>
+						</div>
 					</div>
-				</div>
 
-				<div class="zhineng_item dapei_item2">
-					<img src="img/28.jpg" alt="">
-					<a href="">小米移动电源10000mAh高配版</a>
-					<h1>129元</h1>
-					<p>2万人评论</p>
-				</div>
-
-				<div class="zhineng_item dapei_item2">
-					<img src="img/29.jpg" alt="">
-					<a href="">小米移动电源29(5000mAh版)</a>
-					<h1>49元</h1>
-					<p>195人评论</p>
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
-					<img src="img/30.jpg" alt="">
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/31.jpg" alt="">
-					<a href="">ZMI双模智能充电器+充电宝</a>
-					<h1>109元</h1>
-					<p>108人评论</p>
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/32.jpg" alt="">
-					<a href="">小米移动电源5000mAh</a>
-					<h1>49元</h1>
-					<p>10.9万人评论</p>
-					<div class="zhineng_tan">
-						<p>轻便小巧颜值高</p>
+					<div class="zhineng_item dapei_item2">
+						<img src="img/27.jpg" alt="">
+						<a href="">小米移动电源2C 20000mAh</a>
+						<h1>129元</h1>
+						<p>1.4万人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
 					</div>
-				</div>
 
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/33.jpg" alt="">
-					<a href="">小米活塞耳机 清新版</a>
-					<h1>25元</h1>
-					<p>9万人评论</p>
-					<div class="dapei_biaoqian">
-						<p>新品</p>
+					<div class="zhineng_item dapei_item2">
+						<img src="img/28.jpg" alt="">
+						<a href="">小米移动电源10000mAh高配版</a>
+						<h1>129元</h1>
+						<p>2万人评论</p>
 					</div>
-				</div>
 
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/34.jpg" alt="">
-					<a href="">彩色电池7号</a>
-					<h1>9.9元</h1>
-					<p>10万人评论</p>
-				</div> 
+					<div class="zhineng_item dapei_item2">
+						<img src="img/29.jpg" alt="">
+						<a href="">小米移动电源29(5000mAh版)</a>
+						<h1>49元</h1>
+						<p>195人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/30.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/31.jpg" alt="">
+						<a href="">ZMI双模智能充电器+充电宝</a>
+						<h1>109元</h1>
+						<p>108人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/32.jpg" alt="">
+						<a href="">小米移动电源5000mAh</a>
+						<h1>49元</h1>
+						<p>10.9万人评论</p>
+						<div class="zhineng_tan">
+							<p>轻便小巧颜值高</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/33.jpg" alt="">
+						<a href="">小米活塞耳机 清新版</a>
+						<h1>25元</h1>
+						<p>9万人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/34.jpg" alt="">
+						<a href="">彩色电池7号</a>
+						<h1>9.9元</h1>
+						<p>10万人评论</p>
+					</div> 
+				</div>
+				<div class="goodlist">
+					<div class="zhineng_item dapei_item">
+						<img src="img/25.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/29.jpg" alt="">
+						<a href="">新小米移动电源2(10000mAh)</a>
+						<h1>79元</h1>
+						<p>2810人评论</p>
+						<div class="zhineng_tan">
+							<p>小米移动电源</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/26.jpg" alt="">
+						<a href="">小米移动电源2C 20000mAh</a>
+						<h1>129元</h1>
+						<p>1.4万人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/27.jpg" alt="">
+						<a href="">小米移动电源10000mAh高配版</a>
+						<h1>129元</h1>
+						<p>2万人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/29.jpg" alt="">
+						<a href="">小米移动电源29(5000mAh版)</a>
+						<h1>49元</h1>
+						<p>195人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/30.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/34.jpg" alt="">
+						<a href="">ZMI双模智能充电器+充电宝</a>
+						<h1>109元</h1>
+						<p>108人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/32.jpg" alt="">
+						<a href="">小米移动电源5000mAh</a>
+						<h1>49元</h1>
+						<p>10.9万人评论</p>
+						<div class="zhineng_tan">
+							<p>轻便小巧颜值高</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/31.jpg" alt="">
+						<a href="">小米活塞耳机 清新版</a>
+						<h1>25元</h1>
+						<p>9万人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/32.jpg" alt="">
+						<a href="">彩色电池7号</a>
+						<h1>9.9元</h1>
+						<p>10万人评论</p>
+					</div> 
+				</div>
+				<div class="goodlist">
+					<div class="zhineng_item dapei_item">
+						<img src="img/25.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/28.jpg" alt="">
+						<a href="">新小米移动电源2(10000mAh)</a>
+						<h1>79元</h1>
+						<p>2810人评论</p>
+						<div class="zhineng_tan">
+							<p>小米移动电源</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/26.jpg" alt="">
+						<a href="">小米移动电源2C 20000mAh</a>
+						<h1>129元</h1>
+						<p>1.4万人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/29.jpg" alt="">
+						<a href="">小米移动电源10000mAh高配版</a>
+						<h1>129元</h1>
+						<p>2万人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/27.jpg" alt="">
+						<a href="">小米移动电源29(5000mAh版)</a>
+						<h1>49元</h1>
+						<p>195人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/30.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/33.jpg" alt="">
+						<a href="">ZMI双模智能充电器+充电宝</a>
+						<h1>109元</h1>
+						<p>108人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/34.jpg" alt="">
+						<a href="">小米移动电源5000mAh</a>
+						<h1>49元</h1>
+						<p>10.9万人评论</p>
+						<div class="zhineng_tan">
+							<p>轻便小巧颜值高</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/32.jpg" alt="">
+						<a href="">小米活塞耳机 清新版</a>
+						<h1>25元</h1>
+						<p>9万人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/31.jpg" alt="">
+						<a href="">彩色电池7号</a>
+						<h1>9.9元</h1>
+						<p>10万人评论</p>
+					</div> 
+				</div>
+				<div class="goodlist">
+					<div class="zhineng_item dapei_item">
+						<img src="img/25.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/26.jpg" alt="">
+						<a href="">新小米移动电源2(10000mAh)</a>
+						<h1>79元</h1>
+						<p>2810人评论</p>
+						<div class="zhineng_tan">
+							<p>小米移动电源</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/27.jpg" alt="">
+						<a href="">小米移动电源2C 20000mAh</a>
+						<h1>129元</h1>
+						<p>1.4万人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/28.jpg" alt="">
+						<a href="">小米移动电源10000mAh高配版</a>
+						<h1>129元</h1>
+						<p>2万人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/29.jpg" alt="">
+						<a href="">小米移动电源29(5000mAh版)</a>
+						<h1>49元</h1>
+						<p>195人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/30.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/31.jpg" alt="">
+						<a href="">ZMI双模智能充电器+充电宝</a>
+						<h1>109元</h1>
+						<p>108人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/32.jpg" alt="">
+						<a href="">小米移动电源5000mAh</a>
+						<h1>49元</h1>
+						<p>10.9万人评论</p>
+						<div class="zhineng_tan">
+							<p>轻便小巧颜值高</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/33.jpg" alt="">
+						<a href="">小米活塞耳机 清新版</a>
+						<h1>25元</h1>
+						<p>9万人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/34.jpg" alt="">
+						<a href="">彩色电池7号</a>
+						<h1>9.9元</h1>
+						<p>10万人评论</p>
+					</div> 
+				</div>
 			</div>
 		</section>
 		<!-- 搭配结束 -->
@@ -433,93 +767,345 @@
 			<div class="star_top">
     			<h1 class="star_title">配件</h1>
     			<div class="dapei_right">
-    				<span class="dapei_nav_active">热门</span>
-    				<span>保护套</span>
-    				<span>贴膜</span>
-    				<span>其他配件</span>
+    				<span class="type active">热门</span>
+    				<span class="type">保护套</span>
+    				<span class="type">贴膜</span>
+    				<span class="type">其他配件</span>
     			</div>
 			</div>
 			<div class="zhineng_bottom">
-				<div class="zhineng_item dapei_item">
-					<img src="img/3--1.jpg" alt="">
-				</div>
-
-				<div class="zhineng_item dapei_item2">
-					<img src="img/3--2.jpg" alt="">
-					<a href="">MX2 拼色真皮保护套</a>
-					<h1>99元</h1>
-					<p>85人评论</p>
-					<div class="dapei_biaoqian">
-						<p>新品</p>
-					</div>
-				</div>
-
-				<div class="zhineng_item dapei_item2">
-					<img src="img/3--3.jpg" alt="">
-					<a href="">MIX2全陶瓷版极简保护壳</a>
-					<h1>39元</h1>
-					<p>440人评论</p>
-					<div class="zhineng_tan">
-						<p>质感不错，很满意</p>
-					</div>
-				</div>
-
-				<div class="zhineng_item dapei_item2">
-					<img src="img/3--4.jpg" alt="">
-					<a href="">小米Note 3智能立显半透保护膜</a>
-					<h1>69元</h1>
-					<p>359人评论</p>
-				</div>
-
-				<div class="zhineng_item dapei_item2">
-					<img src="img/3--5.jpg" alt="">
-					<a href="">红米5 Plus 极简防摔保护膜</a>
-					<h1>39元</h1>
-					<p>979人评论</p>
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
-					<img src="img/3--6.jpg" alt="">
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/3--7.jpg" alt="">
-					<a href="">红米5 Plus 标准钢化玻璃膜</a>
-					<h1>29元</h1>
-					<p>492人评论</p>
-					<div class="dapei_biaoqian">
-						<p>新品</p>
-					</div>
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/3--8.jpg" alt="">
-					<a href="">500mAh小米移动电源保护膜</a>
-					<h1>19.9元</h1>
-					<p>679人评论</p>
-					
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/3--9.jpg" alt="">
-					<a href="">红米5 Plus 标准高透保护膜</a>
-					<h1>19元</h1>
-					<p>910人评论</p>
-					<div class="dapei_biaoqian">
-						<p>新品</p>
-					</div>
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/3--10.jpg" alt="">
-					<a href="">小米5X智能手机</a>
-					<h1>49元</h1>
-					<p>100人评论</p>
-					<div class="zhineng_tan">
-						<p>做工精细，品质卓越</p>
+				<div class="goodlist active">
+					<div class="zhineng_item dapei_item">
+						<img src="img/3--1.jpg" alt="">
 					</div>
 
-				</div> 
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--2.jpg" alt="">
+						<a href="">MX2 拼色真皮保护套</a>
+						<h1>99元</h1>
+						<p>85人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--3.jpg" alt="">
+						<a href="">MIX2全陶瓷版极简保护壳</a>
+						<h1>39元</h1>
+						<p>440人评论</p>
+						<div class="zhineng_tan">
+							<p>质感不错，很满意</p>
+						</div>
+					</div>
+				
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--4.jpg" alt="">
+						<a href="">小米Note 3智能立显半透保护膜</a>
+						<h1>69元</h1>
+						<p>359人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--5.jpg" alt="">
+						<a href="">红米5 Plus 极简防摔保护膜</a>
+						<h1>39元</h1>
+						<p>979人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/3--6.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--7.jpg" alt="">
+						<a href="">红米5 Plus 标准钢化玻璃膜</a>
+						<h1>29元</h1>
+						<p>492人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--8.jpg" alt="">
+						<a href="">500mAh小米移动电源保护膜</a>
+						<h1>19.9元</h1>
+						<p>679人评论</p>
+						
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--9.jpg" alt="">
+						<a href="">红米5 Plus 标准高透保护膜</a>
+						<h1>19元</h1>
+						<p>910人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--10.jpg" alt="">
+						<a href="">小米5X智能手机</a>
+						<h1>49元</h1>
+						<p>100人评论</p>
+						<div class="zhineng_tan">
+							<p>做工精细，品质卓越</p>
+						</div>
+
+					</div> 
+				</div>
+				<div class="goodlist">
+					<div class="zhineng_item dapei_item">
+						<img src="img/3--1.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--4.jpg" alt="">
+						<a href="">MX2 拼色真皮保护套</a>
+						<h1>99元</h1>
+						<p>85人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--2.jpg" alt="">
+						<a href="">MIX2全陶瓷版极简保护壳</a>
+						<h1>39元</h1>
+						<p>440人评论</p>
+						<div class="zhineng_tan">
+							<p>质感不错，很满意</p>
+						</div>
+					</div>
+				
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--5.jpg" alt="">
+						<a href="">小米Note 3智能立显半透保护膜</a>
+						<h1>69元</h1>
+						<p>359人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--3.jpg" alt="">
+						<a href="">红米5 Plus 极简防摔保护膜</a>
+						<h1>39元</h1>
+						<p>979人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/3--6.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--9.jpg" alt="">
+						<a href="">红米5 Plus 标准钢化玻璃膜</a>
+						<h1>29元</h1>
+						<p>492人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--7.jpg" alt="">
+						<a href="">500mAh小米移动电源保护膜</a>
+						<h1>19.9元</h1>
+						<p>679人评论</p>
+						
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--10.jpg" alt="">
+						<a href="">红米5 Plus 标准高透保护膜</a>
+						<h1>19元</h1>
+						<p>910人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--8.jpg" alt="">
+						<a href="">小米5X智能手机</a>
+						<h1>49元</h1>
+						<p>100人评论</p>
+						<div class="zhineng_tan">
+							<p>做工精细，品质卓越</p>
+						</div>
+
+					</div> 
+				</div>
+				<div class="goodlist">
+					<div class="zhineng_item dapei_item">
+						<img src="img/3--1.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--2.jpg" alt="">
+						<a href="">MX2 拼色真皮保护套</a>
+						<h1>99元</h1>
+						<p>85人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--3.jpg" alt="">
+						<a href="">MIX2全陶瓷版极简保护壳</a>
+						<h1>39元</h1>
+						<p>440人评论</p>
+						<div class="zhineng_tan">
+							<p>质感不错，很满意</p>
+						</div>
+					</div>
+				
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--4.jpg" alt="">
+						<a href="">小米Note 3智能立显半透保护膜</a>
+						<h1>69元</h1>
+						<p>359人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--5.jpg" alt="">
+						<a href="">红米5 Plus 极简防摔保护膜</a>
+						<h1>39元</h1>
+						<p>979人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/3--6.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--7.jpg" alt="">
+						<a href="">红米5 Plus 标准钢化玻璃膜</a>
+						<h1>29元</h1>
+						<p>492人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--8.jpg" alt="">
+						<a href="">500mAh小米移动电源保护膜</a>
+						<h1>19.9元</h1>
+						<p>679人评论</p>
+						
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--9.jpg" alt="">
+						<a href="">红米5 Plus 标准高透保护膜</a>
+						<h1>19元</h1>
+						<p>910人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--10.jpg" alt="">
+						<a href="">小米5X智能手机</a>
+						<h1>49元</h1>
+						<p>100人评论</p>
+						<div class="zhineng_tan">
+							<p>做工精细，品质卓越</p>
+						</div>
+
+					</div> 
+				</div>
+				<div class="goodlist">
+					<div class="zhineng_item dapei_item">
+						<img src="img/3--1.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--5.jpg" alt="">
+						<a href="">MX2 拼色真皮保护套</a>
+						<h1>99元</h1>
+						<p>85人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--4.jpg" alt="">
+						<a href="">MIX2全陶瓷版极简保护壳</a>
+						<h1>39元</h1>
+						<p>440人评论</p>
+						<div class="zhineng_tan">
+							<p>质感不错，很满意</p>
+						</div>
+					</div>
+				
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--2.jpg" alt="">
+						<a href="">小米Note 3智能立显半透保护膜</a>
+						<h1>69元</h1>
+						<p>359人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/3--3.jpg" alt="">
+						<a href="">红米5 Plus 极简防摔保护膜</a>
+						<h1>39元</h1>
+						<p>979人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/3--6.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--9.jpg" alt="">
+						<a href="">红米5 Plus 标准钢化玻璃膜</a>
+						<h1>29元</h1>
+						<p>492人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--7.jpg" alt="">
+						<a href="">500mAh小米移动电源保护膜</a>
+						<h1>19.9元</h1>
+						<p>679人评论</p>
+						
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--10.jpg" alt="">
+						<a href="">红米5 Plus 标准高透保护膜</a>
+						<h1>19元</h1>
+						<p>910人评论</p>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/3--8.jpg" alt="">
+						<a href="">小米5X智能手机</a>
+						<h1>49元</h1>
+						<p>100人评论</p>
+						<div class="zhineng_tan">
+							<p>做工精细，品质卓越</p>
+						</div>
+
+					</div> 
+				</div>
+			
+				<!-- <div class="dapei_content">
+				
+				</div> -->
 			</div>
 		</section>
 		<!-- 配件结束 -->
@@ -529,87 +1115,389 @@
 			<div class="star_top">
     			<h1 class="star_title">周边</h1>
     			<div class="dapei_right">
-    				<span class="dapei_nav_active">热门</span>
-    				<span>出行</span>
-    				<span>居家</span>
-    				<span>生活周边</span>
-    				<span>箱包</span>
+    				<span class="type active">热门</span>
+    				<span class="type">出行</span>
+    				<span class="type">居家</span>
+    				<span class="type">生活周边</span>
+    				<span class="type">箱包</span>
     			</div>
 			</div>
 			<div class="zhineng_bottom">
-				<div class="zhineng_item dapei_item">
-					<img src="img/4--1.jpg" alt="">
-				</div>
-
-				<div class="zhineng_item dapei_item2">
-					<img src="img/4--2.jpg" alt="">
-					<a href="">米家运动鞋 男款</a>
-					<h1>169元</h1>
-					<p>7822人评论</p>
-				</div>
-
-				<div class="zhineng_item dapei_item2">
-					<img src="img/4--3.jpg" alt="">
-					<a href="">90分金属登机箱 米家定制</a>
-					<h1>999元</h1>
-					<p>501人评论</p>
-					<div class="zhineng_tan">
-						<p>雷总好给力呀，支持国货</p>
+				<div class="goodlist active">
+					<div class="zhineng_item dapei_item">
+						<img src="img/4--1.jpg" alt="">
 					</div>
-				</div>
 
-				<div class="zhineng_item dapei_item2">
-					<img src="img/4--4.jpg" alt="">
-					<a href="">8H天竺棉针织件套</a>
-					<h1>239元</h1>
-					<div class="dapei_biaoqian">
-						<p>新品</p>
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--2.jpg" alt="">
+						<a href="">米家运动鞋 男款</a>
+						<h1>169元</h1>
+						<p>7822人评论</p>
 					</div>
-				</div>
 
-				<div class="zhineng_item dapei_item2">
-					<img src="img/4--5.jpg" alt="">
-					<a href="">8H三曲线护颈记忆绵枕</a>
-					<h1>99元</h1>
-					<p>1309人评论</p>
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
-					<img src="img/4--6.jpg" alt="">
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/4--7.jpg" alt="">
-					<a href="">8H蝴形护颈记忆绵枕</a>
-					<h1>129元</h1>
-					<p>810人评论</p>
-				</div>
-
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/4--8.jpg" alt="">
-					<a href="">90分全天候机能背包更新版</a>
-					<h1>199元</h1>
-					<div class="dapei_biaoqian">
-						<p>新品</p>
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--3.jpg" alt="">
+						<a href="">90分金属登机箱 米家定制</a>
+						<h1>999元</h1>
+						<p>501人评论</p>
+						<div class="zhineng_tan">
+							<p>雷总好给力呀，支持国货</p>
+						</div>
 					</div>
-				</div>
 
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/4--9.jpg" alt="">
-					<a href="">贝医生巴氏牙刷(四色装)</a>
-					<h1>34.9元</h1>
-					<p>8211人评论</p>
-					<div class="zhineng_tan">
-						<p>牙刷都是小米的</p>
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--4.jpg" alt="">
+						<a href="">8H天竺棉针织件套</a>
+						<h1>239元</h1>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
 					</div>
-				</div>
 
-				<div class="zhineng_item zhineng_item1 dapei_item2">
-					<img src="img/4--10.jpg" alt="">
-					<a href="">8H乳胶弹簧床</a>
-					<h1>1599元</h1>
-					<p>10万人评论</p>
-				</div> 
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--5.jpg" alt="">
+						<a href="">8H三曲线护颈记忆绵枕</a>
+						<h1>99元</h1>
+						<p>1309人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/4--6.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--7.jpg" alt="">
+						<a href="">8H蝴形护颈记忆绵枕</a>
+						<h1>129元</h1>
+						<p>810人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--8.jpg" alt="">
+						<a href="">90分全天候机能背包更新版</a>
+						<h1>199元</h1>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--9.jpg" alt="">
+						<a href="">贝医生巴氏牙刷(四色装)</a>
+						<h1>34.9元</h1>
+						<p>8211人评论</p>
+						<div class="zhineng_tan">
+							<p>牙刷都是小米的</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--10.jpg" alt="">
+						<a href="">8H乳胶弹簧床</a>
+						<h1>1599元</h1>
+						<p>10万人评论</p>
+					</div> 
+				</div>
+				<div class="goodlist">
+					<div class="zhineng_item dapei_item">
+						<img src="img/4--1.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--5.jpg" alt="">
+						<a href="">米家运动鞋 男款</a>
+						<h1>169元</h1>
+						<p>7822人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--4.jpg" alt="">
+						<a href="">90分金属登机箱 米家定制</a>
+						<h1>999元</h1>
+						<p>501人评论</p>
+						<div class="zhineng_tan">
+							<p>雷总好给力呀，支持国货</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--3.jpg" alt="">
+						<a href="">8H天竺棉针织件套</a>
+						<h1>239元</h1>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--2.jpg" alt="">
+						<a href="">8H三曲线护颈记忆绵枕</a>
+						<h1>99元</h1>
+						<p>1309人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/4--6.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--10.jpg" alt="">
+						<a href="">8H蝴形护颈记忆绵枕</a>
+						<h1>129元</h1>
+						<p>810人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--9.jpg" alt="">
+						<a href="">90分全天候机能背包更新版</a>
+						<h1>199元</h1>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--8.jpg" alt="">
+						<a href="">贝医生巴氏牙刷(四色装)</a>
+						<h1>34.9元</h1>
+						<p>8211人评论</p>
+						<div class="zhineng_tan">
+							<p>牙刷都是小米的</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--7.jpg" alt="">
+						<a href="">8H乳胶弹簧床</a>
+						<h1>1599元</h1>
+						<p>10万人评论</p>
+					</div> 
+				</div>
+				<div class="goodlist">
+					<div class="zhineng_item dapei_item">
+						<img src="img/4--1.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--2.jpg" alt="">
+						<a href="">米家运动鞋 男款</a>
+						<h1>169元</h1>
+						<p>7822人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--3.jpg" alt="">
+						<a href="">90分金属登机箱 米家定制</a>
+						<h1>999元</h1>
+						<p>501人评论</p>
+						<div class="zhineng_tan">
+							<p>雷总好给力呀，支持国货</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--4.jpg" alt="">
+						<a href="">8H天竺棉针织件套</a>
+						<h1>239元</h1>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--5.jpg" alt="">
+						<a href="">8H三曲线护颈记忆绵枕</a>
+						<h1>99元</h1>
+						<p>1309人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/4--6.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--7.jpg" alt="">
+						<a href="">8H蝴形护颈记忆绵枕</a>
+						<h1>129元</h1>
+						<p>810人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--8.jpg" alt="">
+						<a href="">90分全天候机能背包更新版</a>
+						<h1>199元</h1>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--9.jpg" alt="">
+						<a href="">贝医生巴氏牙刷(四色装)</a>
+						<h1>34.9元</h1>
+						<p>8211人评论</p>
+						<div class="zhineng_tan">
+							<p>牙刷都是小米的</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--10.jpg" alt="">
+						<a href="">8H乳胶弹簧床</a>
+						<h1>1599元</h1>
+						<p>10万人评论</p>
+					</div> 
+				</div>
+				<div class="goodlist">
+					<div class="zhineng_item dapei_item">
+						<img src="img/4--1.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--4.jpg" alt="">
+						<a href="">米家运动鞋 男款</a>
+						<h1>169元</h1>
+						<p>7822人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--2.jpg" alt="">
+						<a href="">90分金属登机箱 米家定制</a>
+						<h1>999元</h1>
+						<p>501人评论</p>
+						<div class="zhineng_tan">
+							<p>雷总好给力呀，支持国货</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--5.jpg" alt="">
+						<a href="">8H天竺棉针织件套</a>
+						<h1>239元</h1>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--3.jpg" alt="">
+						<a href="">8H三曲线护颈记忆绵枕</a>
+						<h1>99元</h1>
+						<p>1309人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/4--6.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--9.jpg" alt="">
+						<a href="">8H蝴形护颈记忆绵枕</a>
+						<h1>129元</h1>
+						<p>810人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--10.jpg" alt="">
+						<a href="">90分全天候机能背包更新版</a>
+						<h1>199元</h1>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--8.jpg" alt="">
+						<a href="">贝医生巴氏牙刷(四色装)</a>
+						<h1>34.9元</h1>
+						<p>8211人评论</p>
+						<div class="zhineng_tan">
+							<p>牙刷都是小米的</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--7.jpg" alt="">
+						<a href="">8H乳胶弹簧床</a>
+						<h1>1599元</h1>
+						<p>10万人评论</p>
+					</div> 
+				</div>
+				<div class="goodlist">
+					<div class="zhineng_item dapei_item">
+						<img src="img/4--1.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--2.jpg" alt="">
+						<a href="">米家运动鞋 男款</a>
+						<h1>169元</h1>
+						<p>7822人评论</p>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--3.jpg" alt="">
+						<a href="">90分金属登机箱 米家定制</a>
+						<h1>999元</h1>
+						<p>501人评论</p>
+						<div class="zhineng_tan">
+							<p>雷总好给力呀，支持国货</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--4.jpg" alt="">
+						<a href="">8H天竺棉针织件套</a>
+						<h1>239元</h1>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item dapei_item2">
+						<img src="img/4--5.jpg" alt="">
+						<a href="">8H三曲线护颈记忆绵枕</a>
+						<h1>99元</h1>
+						<p>1309人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item dapei_item2">
+						<img src="img/4--6.jpg" alt="">
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--7.jpg" alt="">
+						<a href="">8H蝴形护颈记忆绵枕</a>
+						<h1>129元</h1>
+						<p>810人评论</p>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--8.jpg" alt="">
+						<a href="">90分全天候机能背包更新版</a>
+						<h1>199元</h1>
+						<div class="dapei_biaoqian">
+							<p>新品</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--9.jpg" alt="">
+						<a href="">贝医生巴氏牙刷(四色装)</a>
+						<h1>34.9元</h1>
+						<p>8211人评论</p>
+						<div class="zhineng_tan">
+							<p>牙刷都是小米的</p>
+						</div>
+					</div>
+
+					<div class="zhineng_item zhineng_item1 dapei_item2">
+						<img src="img/4--10.jpg" alt="">
+						<a href="">8H乳胶弹簧床</a>
+						<h1>1599元</h1>
+						<p>10万人评论</p>
+					</div> 
+				</div>
 			</div>
 		</section>
 		<!-- 周边结束 -->
@@ -619,45 +1507,151 @@
 	    	<div class="star_top tuijian_top">
 	    		<h1 class="star_title">为你推荐</h1>
 	    		<div class="star_btn">
-	    			<div class="star_btn1">&lt;</div>
-	    			<div class="star_btn2">&gt;</div>
-	    		</div>
+	    			<div class="star_btn1 star_btn3 disable">&lt;</div>
+	    			<div class="star_btn2 star_btn4">&gt;</div>
+    			</div>
 			</div>
 			<div class="star_bottom tuijian_bottom">
-				<div class="star_item tuijian_item">
-					<img src="img/5--1.jpg" alt="">
-					<a href="">红米5 Plus 全网通版 3GB内存</a>
-					<h2>999元</h2>
-					<h3>9930人好评</h3>
-				</div>
+				<div class="buy_inner buy_inner1">
+					<div class="star_item tuijian_item">
+						<img src="img/5--1.jpg" alt="">
+						<a href="">红米5 Plus 全网通版 3GB内存</a>
+						<h2>999元</h2>
+						<h3>9930人好评</h3>
+					</div>
 
-				<div class="star_item star_item2 tuijian_item">
-					<img src="img/5--2.jpg" alt="">
-					<a href="">小米5X 全网通版 4GB内存</a>
-					<h2>1399元</h2>
-					<h3>8822人好评</h3>
-				</div>
+					<div class="star_item star_item2 tuijian_item">
+						<img src="img/5--2.jpg" alt="">
+						<a href="">小米5X 全网通版 4GB内存</a>
+						<h2>1399元</h2>
+						<h3>8822人好评</h3>
+					</div>
 
-				<div class="star_item star_item3 tuijian_item">
-					<img src="img/5--3.jpg" alt="">
-					<a href="">小米Note 3 全网通版 6GB内存</a>
-					<h2>2399元</h2>
-					<h3>1.4万人好评</h3>
-				</div>
+					<div class="star_item star_item3 tuijian_item">
+						<img src="img/5--3.jpg" alt="">
+						<a href="">小米Note 3 全网通版 6GB内存</a>
+						<h2>2399元</h2>
+						<h3>1.4万人好评</h3>
+					</div>
 
-				<div class="star_item star_item4 tuijian_item">
-					<img src="img/5--4.jpg" alt="">
-					<a href="">小米AI音箱</a>
-					<h2>299元</h2>
-					<h3>1999元</h3>
-				</div>
+					<div class="star_item star_item4 tuijian_item">
+						<img src="img/5--4.jpg" alt="">
+						<a href="">小米AI音箱</a>
+						<h2>299元</h2>
+						<h3>1999元</h3>
+					</div>
 
-				<div class="star_item star_item1 tuijian_item">
-					<img src="img/5--5.jpg" alt="">
-					<a href="">小米6 全网通版 4GB内存</a>
-					<h2>2199元</h2>
-					<h3>6912人好评</h3>
+					<div class="star_item star_item1 tuijian_item">
+						<img src="img/5--5.jpg" alt="">
+						<a href="">小米6 全网通版 4GB内存</a>
+						<h2>2199元</h2>
+						<h3>6912人好评</h3>
+					</div>
+
+
+
+					<div class="star_item star_item1 tuijian_item">
+						<img src="img/5--5.jpg" alt="">
+						<a href="">小米6 全网通版 4GB内存</a>
+						<h2>2199元</h2>
+						<h3>6912人好评</h3>
+					</div>
+					<div class="star_item star_item4 tuijian_item">
+						<img src="img/5--4.jpg" alt="">
+						<a href="">小米AI音箱</a>
+						<h2>299元</h2>
+						<h3>1999元</h3>
+					</div>
+					<div class="star_item star_item3 tuijian_item">
+						<img src="img/5--3.jpg" alt="">
+						<a href="">小米Note 3 全网通版 6GB内存</a>
+						<h2>2399元</h2>
+						<h3>1.4万人好评</h3>
+					</div>
+					<div class="star_item star_item2 tuijian_item">
+						<img src="img/5--2.jpg" alt="">
+						<a href="">小米5X 全网通版 4GB内存</a>
+						<h2>1399元</h2>
+						<h3>8822人好评</h3>
+					</div>
+					<div class="star_item tuijian_item">
+						<img src="img/5--1.jpg" alt="">
+						<a href="">红米5 Plus 全网通版 3GB内存</a>
+						<h2>999元</h2>
+						<h3>9930人好评</h3>
+					</div>
+
+
+
+					<div class="star_item tuijian_item">
+						<img src="img/5--1.jpg" alt="">
+						<a href="">红米5 Plus 全网通版 3GB内存</a>
+						<h2>999元</h2>
+						<h3>9930人好评</h3>
+					</div>
+
+					<div class="star_item star_item2 tuijian_item">
+						<img src="img/5--2.jpg" alt="">
+						<a href="">小米5X 全网通版 4GB内存</a>
+						<h2>1399元</h2>
+						<h3>8822人好评</h3>
+					</div>
+
+					<div class="star_item star_item3 tuijian_item">
+						<img src="img/5--3.jpg" alt="">
+						<a href="">小米Note 3 全网通版 6GB内存</a>
+						<h2>2399元</h2>
+						<h3>1.4万人好评</h3>
+					</div>
+
+					<div class="star_item star_item4 tuijian_item">
+						<img src="img/5--4.jpg" alt="">
+						<a href="">小米AI音箱</a>
+						<h2>299元</h2>
+						<h3>1999元</h3>
+					</div>
+
+					<div class="star_item star_item1 tuijian_item">
+						<img src="img/5--5.jpg" alt="">
+						<a href="">小米6 全网通版 4GB内存</a>
+						<h2>2199元</h2>
+						<h3>6912人好评</h3>
+					</div>
+
+
+
+					<div class="star_item star_item1 tuijian_item">
+						<img src="img/5--5.jpg" alt="">
+						<a href="">小米6 全网通版 4GB内存</a>
+						<h2>2199元</h2>
+						<h3>6912人好评</h3>
+					</div>
+					<div class="star_item star_item4 tuijian_item">
+						<img src="img/5--4.jpg" alt="">
+						<a href="">小米AI音箱</a>
+						<h2>299元</h2>
+						<h3>1999元</h3>
+					</div>
+					<div class="star_item star_item3 tuijian_item">
+						<img src="img/5--3.jpg" alt="">
+						<a href="">小米Note 3 全网通版 6GB内存</a>
+						<h2>2399元</h2>
+						<h3>1.4万人好评</h3>
+					</div>
+					<div class="star_item star_item2 tuijian_item">
+						<img src="img/5--2.jpg" alt="">
+						<a href="">小米5X 全网通版 4GB内存</a>
+						<h2>1399元</h2>
+						<h3>8822人好评</h3>
+					</div>
+					<div class="star_item tuijian_item">
+						<img src="img/5--1.jpg" alt="">
+						<a href="">红米5 Plus 全网通版 3GB内存</a>
+						<h2>999元</h2>
+						<h3>9930人好评</h3>
+					</div>
 				</div>
+				
 			</div>
 	 	</section>
 		<!-- 为你推荐结束 -->
@@ -1059,4 +2053,5 @@
 		
     
 </body>
+<script src="js/index.js"></script>
 </html>
