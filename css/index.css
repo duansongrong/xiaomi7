@@ -629,7 +629,7 @@ input{
 	margin-top: 22px;
 	cursor: pointer;
 	transition: all .5s;
-		}
+}
 .type.active{
 	border-bottom: 2px solid #ff6700;
 	padding-bottom: 2px;

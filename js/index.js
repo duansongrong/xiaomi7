@@ -1,19 +1,17 @@
-// banner
+ // banner
 {
 	let imgs=document.querySelectorAll(".imgbox li");
 	let pagers=document.querySelectorAll(".pagerbox li");
 	let banner=document.querySelector("#banner");
 	let next=document.querySelector(".next");
 	let prev=document.querySelector(".prev");
-	// console.log(imgs);
-	// console.log(pager);
+	let flag=true;
 	pagers.forEach(function(ele,index){
 		ele.onclick=function(){
 			for(let i=0;i<imgs.length;i++){
 				imgs[i].classList.remove("active");
 				pagers[i].classList.remove("active");
 			}
-			//this ele pagers[index]
 			this.classList.add("active");
 			imgs[index].classList.add("active");
 			n=index;
@@ -33,7 +31,6 @@
  				pagers[i].classList.remove("active");
  				imgs[i].classList.remove("active");
 			}
-			//this ele pagers[index]
 			imgs[n].classList.add("active");
 			pagers[n].classList.add("active");
 	}
@@ -44,12 +41,23 @@
 		t=setInterval(move,3000);
 	}
 	next.onclick=function(){
-		move();
+		if(flag){
+			flag=false;
+			move();
+		}
 	}
 	prev.onclick=function(){
-		n-=2;
-		move();
+		if(flag){
+			flag=false;
+			n-=2;
+			move();
+		}
 	}
+	imgs.forEach(function(ele,index){
+		ele.addEventListener("transitionend",function(){
+			flag=true;
+		})
+	})
 }
 
 //小米单品
