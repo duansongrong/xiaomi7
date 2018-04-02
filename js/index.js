@@ -76,7 +76,7 @@
 			n=3;
 			return;
 		}
-		inner.style.marginLeft=-1226*n+"px";
+		inner.style.marginLeft=-978*n+"px";
 	}
 
 	btn1.onclick=function(){
@@ -89,7 +89,7 @@
 			n=0;
 			return;
 		}
-		inner.style.marginLeft=-1226*n+"px";
+		inner.style.marginLeft=-978*n+"px";
 	}
 }
 
@@ -234,3 +234,45 @@
 		}
 	});	
 }
+
+//倒计时
+ {
+     let date=new Date();
+     let hourEle=document.querySelector(".hours");
+     let minEle=document.querySelector(".minutes");
+     let secondEle=document.querySelector(".seconds");
+     let target=new Date(date.getFullYear(),date.getMonth()+1,date.getDate(),22,0,0);
+     let targetTime=target.getTime();
+     setInterval(time,1000);
+     time();
+     function time(){
+         let now=new Date();
+         let nowTime=now.getTime();
+         let duration=targetTime-nowTime;
+         // let days=Math.floor(duration/(1000*60*60*24));
+         // dateEle.innerHTML=days;
+         let hours=Math.floor(duration/(1000*60*60))%24;
+         if(hours<10){
+             hourEle.innerHTML="0"+hours;
+		 }else{
+             hourEle.innerHTML=hours;
+         }
+         let minutes=Math.floor(duration/(1000*60))%60;
+         if(minutes<10){
+             minEle.innerHTML="0"+minutes;
+         }else{
+             minEle.innerHTML=minutes;
+         }
+         let seconds=Math.floor(duration/1000)%60;
+         if(seconds<10){
+             secondEle.innerHTML="0"+seconds;
+         }else{
+             secondEle.innerHTML=seconds;
+         }
+         if(hours<0){
+             hourEle.innerHTML="0";
+             minEle.innerHTML="0";
+             secondEle.innerHTML="0";
+         }
+     }
+ }

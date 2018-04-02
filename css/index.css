@@ -442,6 +442,12 @@ input{
 	width: 1226px;
 	height: 340px;
 	background-color: #fff;
+}
+.star_content{
+	width: 978px;
+	height: 340px;
+	background-color: #fff;
+	margin-left: 248px;
 	overflow: hidden;
 }
 .buy_inner{
@@ -1401,4 +1407,60 @@ input{
 	background-color: #ff6700;
 	color: #fff;
 	cursor: pointer;
+}
+.star_jishi{
+	width: 234px;
+	height: 300px;
+	background-color: #FAFAFA;
+	border-top: 1px solid #E53935;
+	padding-top: 39px;
+	float: left;
+	margin-right: 14px;
+}
+.daojishi{
+	width: 234px;
+	height: 31px;
+	font-size: 21px!important;
+	color: #ef3a3b!important;
+	padding-top: 15px;
+	margin-top: 0!important;
+	text-align: center;
+}
+#daojishi_img{
+	width: 34px;
+	height: 53px;
+	display: block;
+	margin:25px auto;
+}
+#dajishi_word{
+	color: rgba(0,0,0,0.54);
+	font-size: 15px;
+	text-align: center;
+}
+.daojishi_kuai{
+	width: 168px;
+	height: 46px;
+	margin: 28px auto 0;
+}
+.daojishi_item{
+	width: 46px;
+	height: 46px;
+	background: #605751;
+	color:#fff;
+	text-align: center;
+	line-height: 46px;
+	font-size: 24px;
+	float: left;
+}
+.dosh{
+	width: 15px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 28px;
+	color: #605751;
+	float: left;
+	text-align: center;
+}
+.star_jishi{
+	background: #F1EDED;
 }
