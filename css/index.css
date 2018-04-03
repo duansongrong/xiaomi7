@@ -717,6 +717,7 @@ input{
 }
 .tuijian_bottom{
 	background-color: #F5F5F5;
+	overflow: hidden;
 }
 .tuijian_item{
 	background-color: #ffffff;
